@@ -7,12 +7,20 @@
 //
 
 #import "RootViewController.h"
+#import "CustonNavBar.h"
 
 @implementation RootViewController
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    CustonNavBar *navBar = (CustonNavBar*)self.navigationController.navigationBar;
+    
+    [navBar setBackgroundWith:[UIImage imageNamed:@"navigationBarBackground.png"]];
+    UIButton* back = [navBar backButtonWith:[UIImage imageNamed:@"navigationBarBackButton.png"] highlight:nil leftCapWidth:10.0];
+    self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithCustomView:back];
+    
 }
 
 - (void)viewWillAppear:(BOOL)animated

@@ -16,6 +16,9 @@
 		0A4B953E13C7AEE700FF364D /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A4B953C13C7AEE700FF364D /* MainWindow.xib */; };
 		0A4B954113C7AEE700FF364D /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A4B954013C7AEE700FF364D /* RootViewController.m */; };
 		0A4B954413C7AEE700FF364D /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A4B954213C7AEE700FF364D /* RootViewController.xib */; };
+		0A4B955713C7B05200FF364D /* CustonNavBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A4B955613C7B05200FF364D /* CustonNavBar.m */; };
+		0A4B955A13C7BDA300FF364D /* navigationBarBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A4B955813C7BDA300FF364D /* navigationBarBackground.png */; };
+		0A4B955F13C7BE0C00FF364D /* navigationBarBackButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A4B955E13C7BE0C00FF364D /* navigationBarBackButton.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,16 +26,20 @@
 		0A4B952A13C7AEE700FF364D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		0A4B952C13C7AEE700FF364D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		0A4B952E13C7AEE700FF364D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		0A4B953213C7AEE700FF364D /* CustomNavText-Info.plist */ = {isa = PBXFileReference; path = "CustomNavText-Info.plist"; sourceTree = "<group>"; };
+		0A4B953213C7AEE700FF364D /* CustomNavText-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CustomNavText-Info.plist"; sourceTree = "<group>"; };
 		0A4B953413C7AEE700FF364D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		0A4B953613C7AEE700FF364D /* CustomNavText-Prefix.pch */ = {isa = PBXFileReference; path = "CustomNavText-Prefix.pch"; sourceTree = "<group>"; };
+		0A4B953613C7AEE700FF364D /* CustomNavText-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CustomNavText-Prefix.pch"; sourceTree = "<group>"; };
 		0A4B953713C7AEE700FF364D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		0A4B953913C7AEE700FF364D /* CustomNavTextAppDelegate.h */ = {isa = PBXFileReference; path = CustomNavTextAppDelegate.h; sourceTree = "<group>"; };
+		0A4B953913C7AEE700FF364D /* CustomNavTextAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomNavTextAppDelegate.h; sourceTree = "<group>"; };
 		0A4B953A13C7AEE700FF364D /* CustomNavTextAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomNavTextAppDelegate.m; sourceTree = "<group>"; };
 		0A4B953D13C7AEE700FF364D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		0A4B953F13C7AEE700FF364D /* RootViewController.h */ = {isa = PBXFileReference; path = RootViewController.h; sourceTree = "<group>"; };
+		0A4B953F13C7AEE700FF364D /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		0A4B954013C7AEE700FF364D /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		0A4B954313C7AEE700FF364D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RootViewController.xib; sourceTree = "<group>"; };
+		0A4B955513C7B05200FF364D /* CustonNavBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustonNavBar.h; sourceTree = "<group>"; };
+		0A4B955613C7B05200FF364D /* CustonNavBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustonNavBar.m; sourceTree = "<group>"; };
+		0A4B955813C7BDA300FF364D /* navigationBarBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = navigationBarBackground.png; sourceTree = "<group>"; };
+		0A4B955E13C7BE0C00FF364D /* navigationBarBackButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = navigationBarBackButton.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +86,8 @@
 		0A4B953013C7AEE700FF364D /* CustomNavText */ = {
 			isa = PBXGroup;
 			children = (
+				0A4B955D13C7BDAD00FF364D /* Images */,
+				0A4B954A13C7AF5500FF364D /* Custon Nav Hotness */,
 				0A4B953913C7AEE700FF364D /* CustomNavTextAppDelegate.h */,
 				0A4B953A13C7AEE700FF364D /* CustomNavTextAppDelegate.m */,
 				0A4B953C13C7AEE700FF364D /* MainWindow.xib */,
@@ -99,6 +108,24 @@
 				0A4B953713C7AEE700FF364D /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0A4B954A13C7AF5500FF364D /* Custon Nav Hotness */ = {
+			isa = PBXGroup;
+			children = (
+				0A4B955513C7B05200FF364D /* CustonNavBar.h */,
+				0A4B955613C7B05200FF364D /* CustonNavBar.m */,
+			);
+			name = "Custon Nav Hotness";
+			sourceTree = "<group>";
+		};
+		0A4B955D13C7BDAD00FF364D /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				0A4B955813C7BDA300FF364D /* navigationBarBackground.png */,
+				0A4B955E13C7BE0C00FF364D /* navigationBarBackButton.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,6 +181,8 @@
 				0A4B953513C7AEE700FF364D /* InfoPlist.strings in Resources */,
 				0A4B953E13C7AEE700FF364D /* MainWindow.xib in Resources */,
 				0A4B954413C7AEE700FF364D /* RootViewController.xib in Resources */,
+				0A4B955A13C7BDA300FF364D /* navigationBarBackground.png in Resources */,
+				0A4B955F13C7BE0C00FF364D /* navigationBarBackButton.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,6 +196,7 @@
 				0A4B953813C7AEE700FF364D /* main.m in Sources */,
 				0A4B953B13C7AEE700FF364D /* CustomNavTextAppDelegate.m in Sources */,
 				0A4B954113C7AEE700FF364D /* RootViewController.m in Sources */,
+				0A4B955713C7B05200FF364D /* CustonNavBar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
