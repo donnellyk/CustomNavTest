@@ -1,0 +1,286 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A4B952B13C7AEE700FF364D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A4B952A13C7AEE700FF364D /* UIKit.framework */; };
+		0A4B952D13C7AEE700FF364D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A4B952C13C7AEE700FF364D /* Foundation.framework */; };
+		0A4B952F13C7AEE700FF364D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A4B952E13C7AEE700FF364D /* CoreGraphics.framework */; };
+		0A4B953513C7AEE700FF364D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0A4B953313C7AEE700FF364D /* InfoPlist.strings */; };
+		0A4B953813C7AEE700FF364D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A4B953713C7AEE700FF364D /* main.m */; };
+		0A4B953B13C7AEE700FF364D /* CustomNavTextAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A4B953A13C7AEE700FF364D /* CustomNavTextAppDelegate.m */; };
+		0A4B953E13C7AEE700FF364D /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A4B953C13C7AEE700FF364D /* MainWindow.xib */; };
+		0A4B954113C7AEE700FF364D /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A4B954013C7AEE700FF364D /* RootViewController.m */; };
+		0A4B954413C7AEE700FF364D /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A4B954213C7AEE700FF364D /* RootViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0A4B952613C7AEE700FF364D /* CustomNavText.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomNavText.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A4B952A13C7AEE700FF364D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0A4B952C13C7AEE700FF364D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0A4B952E13C7AEE700FF364D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0A4B953213C7AEE700FF364D /* CustomNavText-Info.plist */ = {isa = PBXFileReference; path = "CustomNavText-Info.plist"; sourceTree = "<group>"; };
+		0A4B953413C7AEE700FF364D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0A4B953613C7AEE700FF364D /* CustomNavText-Prefix.pch */ = {isa = PBXFileReference; path = "CustomNavText-Prefix.pch"; sourceTree = "<group>"; };
+		0A4B953713C7AEE700FF364D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0A4B953913C7AEE700FF364D /* CustomNavTextAppDelegate.h */ = {isa = PBXFileReference; path = CustomNavTextAppDelegate.h; sourceTree = "<group>"; };
+		0A4B953A13C7AEE700FF364D /* CustomNavTextAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomNavTextAppDelegate.m; sourceTree = "<group>"; };
+		0A4B953D13C7AEE700FF364D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		0A4B953F13C7AEE700FF364D /* RootViewController.h */ = {isa = PBXFileReference; path = RootViewController.h; sourceTree = "<group>"; };
+		0A4B954013C7AEE700FF364D /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		0A4B954313C7AEE700FF364D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RootViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0A4B952313C7AEE600FF364D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A4B952B13C7AEE700FF364D /* UIKit.framework in Frameworks */,
+				0A4B952D13C7AEE700FF364D /* Foundation.framework in Frameworks */,
+				0A4B952F13C7AEE700FF364D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A4B951B13C7AEE600FF364D = {
+			isa = PBXGroup;
+			children = (
+				0A4B953013C7AEE700FF364D /* CustomNavText */,
+				0A4B952913C7AEE700FF364D /* Frameworks */,
+				0A4B952713C7AEE700FF364D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0A4B952713C7AEE700FF364D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0A4B952613C7AEE700FF364D /* CustomNavText.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0A4B952913C7AEE700FF364D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0A4B952A13C7AEE700FF364D /* UIKit.framework */,
+				0A4B952C13C7AEE700FF364D /* Foundation.framework */,
+				0A4B952E13C7AEE700FF364D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0A4B953013C7AEE700FF364D /* CustomNavText */ = {
+			isa = PBXGroup;
+			children = (
+				0A4B953913C7AEE700FF364D /* CustomNavTextAppDelegate.h */,
+				0A4B953A13C7AEE700FF364D /* CustomNavTextAppDelegate.m */,
+				0A4B953C13C7AEE700FF364D /* MainWindow.xib */,
+				0A4B953F13C7AEE700FF364D /* RootViewController.h */,
+				0A4B954013C7AEE700FF364D /* RootViewController.m */,
+				0A4B954213C7AEE700FF364D /* RootViewController.xib */,
+				0A4B953113C7AEE700FF364D /* Supporting Files */,
+			);
+			path = CustomNavText;
+			sourceTree = "<group>";
+		};
+		0A4B953113C7AEE700FF364D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0A4B953213C7AEE700FF364D /* CustomNavText-Info.plist */,
+				0A4B953313C7AEE700FF364D /* InfoPlist.strings */,
+				0A4B953613C7AEE700FF364D /* CustomNavText-Prefix.pch */,
+				0A4B953713C7AEE700FF364D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0A4B952513C7AEE600FF364D /* CustomNavText */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A4B954713C7AEE700FF364D /* Build configuration list for PBXNativeTarget "CustomNavText" */;
+			buildPhases = (
+				0A4B952213C7AEE600FF364D /* Sources */,
+				0A4B952313C7AEE600FF364D /* Frameworks */,
+				0A4B952413C7AEE600FF364D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CustomNavText;
+			productName = CustomNavText;
+			productReference = 0A4B952613C7AEE700FF364D /* CustomNavText.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0A4B951D13C7AEE600FF364D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "-";
+			};
+			buildConfigurationList = 0A4B952013C7AEE600FF364D /* Build configuration list for PBXProject "CustomNavText" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0A4B951B13C7AEE600FF364D;
+			productRefGroup = 0A4B952713C7AEE700FF364D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0A4B952513C7AEE600FF364D /* CustomNavText */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0A4B952413C7AEE600FF364D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A4B953513C7AEE700FF364D /* InfoPlist.strings in Resources */,
+				0A4B953E13C7AEE700FF364D /* MainWindow.xib in Resources */,
+				0A4B954413C7AEE700FF364D /* RootViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A4B952213C7AEE600FF364D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A4B953813C7AEE700FF364D /* main.m in Sources */,
+				0A4B953B13C7AEE700FF364D /* CustomNavTextAppDelegate.m in Sources */,
+				0A4B954113C7AEE700FF364D /* RootViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0A4B953313C7AEE700FF364D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A4B953413C7AEE700FF364D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0A4B953C13C7AEE700FF364D /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A4B953D13C7AEE700FF364D /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		0A4B954213C7AEE700FF364D /* RootViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A4B954313C7AEE700FF364D /* en */,
+			);
+			name = RootViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0A4B954513C7AEE700FF364D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0A4B954613C7AEE700FF364D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		0A4B954813C7AEE700FF364D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CustomNavText/CustomNavText-Prefix.pch";
+				INFOPLIST_FILE = "CustomNavText/CustomNavText-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0A4B954913C7AEE700FF364D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CustomNavText/CustomNavText-Prefix.pch";
+				INFOPLIST_FILE = "CustomNavText/CustomNavText-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0A4B952013C7AEE600FF364D /* Build configuration list for PBXProject "CustomNavText" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A4B954513C7AEE700FF364D /* Debug */,
+				0A4B954613C7AEE700FF364D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A4B954713C7AEE700FF364D /* Build configuration list for PBXNativeTarget "CustomNavText" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A4B954813C7AEE700FF364D /* Debug */,
+				0A4B954913C7AEE700FF364D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0A4B951D13C7AEE600FF364D /* Project object */;
+}
