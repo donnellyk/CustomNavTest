@@ -7,7 +7,6 @@
 //
 
 #import "CustomNavTextAppDelegate.h"
-
 @implementation CustomNavTextAppDelegate
 
 
@@ -17,11 +16,18 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    self.navigationController.delegate = self;
     // Override point for customization after application launch.
     // Add the navigation controller's view to the window and display.
     self.window.rootViewController = self.navigationController;
     [self.window makeKeyAndVisible];
     return YES;
+}
+
+- (void)navigationController:(UINavigationController *)navController willShowViewController:(UIViewController *)viewController animated:(BOOL)animated
+{
+    if ([viewController respondsToSelector:@selector(willAppearIn:)])
+        [viewController performSelector:@selector(willAppearIn:) withObject:navController];
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application

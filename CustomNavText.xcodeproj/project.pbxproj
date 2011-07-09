@@ -16,9 +16,11 @@
 		0A4B953E13C7AEE700FF364D /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A4B953C13C7AEE700FF364D /* MainWindow.xib */; };
 		0A4B954113C7AEE700FF364D /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A4B954013C7AEE700FF364D /* RootViewController.m */; };
 		0A4B954413C7AEE700FF364D /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A4B954213C7AEE700FF364D /* RootViewController.xib */; };
-		0A4B955713C7B05200FF364D /* CustonNavBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A4B955613C7B05200FF364D /* CustonNavBar.m */; };
+		0A4B955713C7B05200FF364D /* CustomNavBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A4B955613C7B05200FF364D /* CustomNavBar.m */; };
 		0A4B955A13C7BDA300FF364D /* navigationBarBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A4B955813C7BDA300FF364D /* navigationBarBackground.png */; };
 		0A4B955F13C7BE0C00FF364D /* navigationBarBackButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A4B955E13C7BE0C00FF364D /* navigationBarBackButton.png */; };
+		0AFC0ED313C7C45D00B667E8 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AFC0ED113C7C45D00B667E8 /* DetailViewController.m */; };
+		0AFC0ED413C7C45D00B667E8 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0AFC0ED213C7C45D00B667E8 /* DetailViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,10 +38,13 @@
 		0A4B953F13C7AEE700FF364D /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		0A4B954013C7AEE700FF364D /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		0A4B954313C7AEE700FF364D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RootViewController.xib; sourceTree = "<group>"; };
-		0A4B955513C7B05200FF364D /* CustonNavBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustonNavBar.h; sourceTree = "<group>"; };
-		0A4B955613C7B05200FF364D /* CustonNavBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustonNavBar.m; sourceTree = "<group>"; };
+		0A4B955513C7B05200FF364D /* CustomNavBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomNavBar.h; sourceTree = "<group>"; };
+		0A4B955613C7B05200FF364D /* CustomNavBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomNavBar.m; sourceTree = "<group>"; };
 		0A4B955813C7BDA300FF364D /* navigationBarBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = navigationBarBackground.png; sourceTree = "<group>"; };
 		0A4B955E13C7BE0C00FF364D /* navigationBarBackButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = navigationBarBackButton.png; sourceTree = "<group>"; };
+		0AFC0ED013C7C45D00B667E8 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		0AFC0ED113C7C45D00B667E8 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		0AFC0ED213C7C45D00B667E8 /* DetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +100,9 @@
 				0A4B954013C7AEE700FF364D /* RootViewController.m */,
 				0A4B954213C7AEE700FF364D /* RootViewController.xib */,
 				0A4B953113C7AEE700FF364D /* Supporting Files */,
+				0AFC0ED013C7C45D00B667E8 /* DetailViewController.h */,
+				0AFC0ED113C7C45D00B667E8 /* DetailViewController.m */,
+				0AFC0ED213C7C45D00B667E8 /* DetailViewController.xib */,
 			);
 			path = CustomNavText;
 			sourceTree = "<group>";
@@ -113,8 +121,8 @@
 		0A4B954A13C7AF5500FF364D /* Custon Nav Hotness */ = {
 			isa = PBXGroup;
 			children = (
-				0A4B955513C7B05200FF364D /* CustonNavBar.h */,
-				0A4B955613C7B05200FF364D /* CustonNavBar.m */,
+				0A4B955513C7B05200FF364D /* CustomNavBar.h */,
+				0A4B955613C7B05200FF364D /* CustomNavBar.m */,
 			);
 			name = "Custon Nav Hotness";
 			sourceTree = "<group>";
@@ -183,6 +191,7 @@
 				0A4B954413C7AEE700FF364D /* RootViewController.xib in Resources */,
 				0A4B955A13C7BDA300FF364D /* navigationBarBackground.png in Resources */,
 				0A4B955F13C7BE0C00FF364D /* navigationBarBackButton.png in Resources */,
+				0AFC0ED413C7C45D00B667E8 /* DetailViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,7 +205,8 @@
 				0A4B953813C7AEE700FF364D /* main.m in Sources */,
 				0A4B953B13C7AEE700FF364D /* CustomNavTextAppDelegate.m in Sources */,
 				0A4B954113C7AEE700FF364D /* RootViewController.m in Sources */,
-				0A4B955713C7B05200FF364D /* CustonNavBar.m in Sources */,
+				0A4B955713C7B05200FF364D /* CustomNavBar.m in Sources */,
+				0AFC0ED313C7C45D00B667E8 /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,6 +319,7 @@
 				0A4B954913C7AEE700FF364D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

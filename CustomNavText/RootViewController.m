@@ -7,21 +7,29 @@
 //
 
 #import "RootViewController.h"
-#import "CustonNavBar.h"
+#import "CustomNavBar.h"
+#import "DetailViewController.h"
 
 @implementation RootViewController
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    
-    CustonNavBar *navBar = (CustonNavBar*)self.navigationController.navigationBar;
-    
-    [navBar setBackgroundWith:[UIImage imageNamed:@"navigationBarBackground.png"]];
-    UIButton* back = [navBar backButtonWith:[UIImage imageNamed:@"navigationBarBackButton.png"] highlight:nil leftCapWidth:10.0];
-    self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithCustomView:back];
+    self.title = @"Home";
     
 }
+
+-(void)willAppearIn:(UINavigationController *)navigationController
+{
+    //Reset to original, or you can load another image. The world is your oyster!
+    self.navigationController.navigationBar.backItem.title = @"Home";
+    CustomNavBar* customNavigationBar = (CustomNavBar*)navigationController.navigationBar;
+    // Clear the tint color
+    customNavigationBar.tintColor = nil;
+    // Clear the background
+    [customNavigationBar clearBackground];
+}
+
 
 - (void)viewWillAppear:(BOOL)animated
 {
@@ -59,7 +67,7 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    return 0;
+    return 1;
 }
 
 // Customize the appearance of table view cells.
@@ -73,6 +81,7 @@
     }
 
     // Configure the cell.
+    cell.textLabel.text = @"Click Here";
     return cell;
 }
 
@@ -119,13 +128,8 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    /*
-    <#DetailViewController#> *detailViewController = [[<#DetailViewController#> alloc] initWithNibName:@"<#Nib name#>" bundle:nil];
-    // ...
-    // Pass the selected object to the new view controller.
+    DetailViewController *detailViewController = [[DetailViewController alloc] init];
     [self.navigationController pushViewController:detailViewController animated:YES];
-    [detailViewController release];
-	*/
 }
 
 - (void)didReceiveMemoryWarning

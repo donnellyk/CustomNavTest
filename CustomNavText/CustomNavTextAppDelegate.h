@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface CustomNavTextAppDelegate : NSObject <UIApplicationDelegate> {
+@interface CustomNavTextAppDelegate : NSObject <UIApplicationDelegate, UINavigationControllerDelegate> {
 
 }
 
