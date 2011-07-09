@@ -35,7 +35,7 @@
 
 // With a custom back button, we have to provide the action. We simply pop the view controller
 - (IBAction)back:(id)sender
-{
+{ 
     [self.navigationController popViewControllerAnimated:YES];
 }
 
@@ -57,7 +57,7 @@
     button.titleEdgeInsets = UIEdgeInsetsMake(0, 6.0, 0, 3.0);
     button.frame = CGRectMake(0, 0, 0, buttonImage.size.height);
     
-    [self setText:@"Something" onBackButton:button];
+    [self setText:self.topItem.title onBackButton:button];
     
     [button setBackgroundImage:buttonImage forState:UIControlStateNormal];
     [button setBackgroundImage:buttonImagePressed forState:UIControlStateHighlighted];

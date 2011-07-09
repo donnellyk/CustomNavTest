@@ -19,6 +19,7 @@
 		0A4B955713C7B05200FF364D /* CustomNavBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A4B955613C7B05200FF364D /* CustomNavBar.m */; };
 		0A4B955A13C7BDA300FF364D /* navigationBarBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A4B955813C7BDA300FF364D /* navigationBarBackground.png */; };
 		0A4B955F13C7BE0C00FF364D /* navigationBarBackButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A4B955E13C7BE0C00FF364D /* navigationBarBackButton.png */; };
+		0A6229EA13C7D9F10057B97A /* navigationBarLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A6229E913C7D9F10057B97A /* navigationBarLogo.png */; };
 		0AFC0ED313C7C45D00B667E8 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AFC0ED113C7C45D00B667E8 /* DetailViewController.m */; };
 		0AFC0ED413C7C45D00B667E8 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0AFC0ED213C7C45D00B667E8 /* DetailViewController.xib */; };
 /* End PBXBuildFile section */
@@ -42,6 +43,7 @@
 		0A4B955613C7B05200FF364D /* CustomNavBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomNavBar.m; sourceTree = "<group>"; };
 		0A4B955813C7BDA300FF364D /* navigationBarBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = navigationBarBackground.png; sourceTree = "<group>"; };
 		0A4B955E13C7BE0C00FF364D /* navigationBarBackButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = navigationBarBackButton.png; sourceTree = "<group>"; };
+		0A6229E913C7D9F10057B97A /* navigationBarLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = navigationBarLogo.png; sourceTree = "<group>"; };
 		0AFC0ED013C7C45D00B667E8 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		0AFC0ED113C7C45D00B667E8 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		0AFC0ED213C7C45D00B667E8 /* DetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
@@ -132,6 +134,7 @@
 			children = (
 				0A4B955813C7BDA300FF364D /* navigationBarBackground.png */,
 				0A4B955E13C7BE0C00FF364D /* navigationBarBackButton.png */,
+				0A6229E913C7D9F10057B97A /* navigationBarLogo.png */,
 			);
 			name = Images;
 			sourceTree = "<group>";
@@ -192,6 +195,7 @@
 				0A4B955A13C7BDA300FF364D /* navigationBarBackground.png in Resources */,
 				0A4B955F13C7BE0C00FF364D /* navigationBarBackButton.png in Resources */,
 				0AFC0ED413C7C45D00B667E8 /* DetailViewController.xib in Resources */,
+				0A6229EA13C7D9F10057B97A /* navigationBarLogo.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
