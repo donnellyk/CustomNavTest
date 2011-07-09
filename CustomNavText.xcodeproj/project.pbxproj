@@ -17,9 +17,11 @@
 		0A4B954113C7AEE700FF364D /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A4B954013C7AEE700FF364D /* RootViewController.m */; };
 		0A4B954413C7AEE700FF364D /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A4B954213C7AEE700FF364D /* RootViewController.xib */; };
 		0A4B955713C7B05200FF364D /* CustomNavBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A4B955613C7B05200FF364D /* CustomNavBar.m */; };
-		0A4B955A13C7BDA300FF364D /* navigationBarBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A4B955813C7BDA300FF364D /* navigationBarBackground.png */; };
-		0A4B955F13C7BE0C00FF364D /* navigationBarBackButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A4B955E13C7BE0C00FF364D /* navigationBarBackButton.png */; };
 		0A6229EA13C7D9F10057B97A /* navigationBarLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A6229E913C7D9F10057B97A /* navigationBarLogo.png */; };
+		0A8235FC13C8C83F00277B1B /* NavBarBack@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A8235F813C8C83F00277B1B /* NavBarBack@2x.png */; };
+		0A8235FD13C8C83F00277B1B /* NavBarBack.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A8235F913C8C83F00277B1B /* NavBarBack.png */; };
+		0A82360513C8CAAF00277B1B /* NavBarBackground@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A82360313C8CAAF00277B1B /* NavBarBackground@2x.png */; };
+		0A82360613C8CAAF00277B1B /* NavBarBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A82360413C8CAAF00277B1B /* NavBarBackground.png */; };
 		0AFC0ED313C7C45D00B667E8 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AFC0ED113C7C45D00B667E8 /* DetailViewController.m */; };
 		0AFC0ED413C7C45D00B667E8 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0AFC0ED213C7C45D00B667E8 /* DetailViewController.xib */; };
 /* End PBXBuildFile section */
@@ -41,9 +43,11 @@
 		0A4B954313C7AEE700FF364D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RootViewController.xib; sourceTree = "<group>"; };
 		0A4B955513C7B05200FF364D /* CustomNavBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomNavBar.h; sourceTree = "<group>"; };
 		0A4B955613C7B05200FF364D /* CustomNavBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomNavBar.m; sourceTree = "<group>"; };
-		0A4B955813C7BDA300FF364D /* navigationBarBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = navigationBarBackground.png; sourceTree = "<group>"; };
-		0A4B955E13C7BE0C00FF364D /* navigationBarBackButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = navigationBarBackButton.png; sourceTree = "<group>"; };
 		0A6229E913C7D9F10057B97A /* navigationBarLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = navigationBarLogo.png; sourceTree = "<group>"; };
+		0A8235F813C8C83F00277B1B /* NavBarBack@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NavBarBack@2x.png"; sourceTree = "<group>"; };
+		0A8235F913C8C83F00277B1B /* NavBarBack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NavBarBack.png; sourceTree = "<group>"; };
+		0A82360313C8CAAF00277B1B /* NavBarBackground@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NavBarBackground@2x.png"; sourceTree = "<group>"; };
+		0A82360413C8CAAF00277B1B /* NavBarBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NavBarBackground.png; sourceTree = "<group>"; };
 		0AFC0ED013C7C45D00B667E8 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		0AFC0ED113C7C45D00B667E8 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		0AFC0ED213C7C45D00B667E8 /* DetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
@@ -132,8 +136,10 @@
 		0A4B955D13C7BDAD00FF364D /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				0A4B955813C7BDA300FF364D /* navigationBarBackground.png */,
-				0A4B955E13C7BE0C00FF364D /* navigationBarBackButton.png */,
+				0A82360313C8CAAF00277B1B /* NavBarBackground@2x.png */,
+				0A82360413C8CAAF00277B1B /* NavBarBackground.png */,
+				0A8235F813C8C83F00277B1B /* NavBarBack@2x.png */,
+				0A8235F913C8C83F00277B1B /* NavBarBack.png */,
 				0A6229E913C7D9F10057B97A /* navigationBarLogo.png */,
 			);
 			name = Images;
@@ -192,10 +198,12 @@
 				0A4B953513C7AEE700FF364D /* InfoPlist.strings in Resources */,
 				0A4B953E13C7AEE700FF364D /* MainWindow.xib in Resources */,
 				0A4B954413C7AEE700FF364D /* RootViewController.xib in Resources */,
-				0A4B955A13C7BDA300FF364D /* navigationBarBackground.png in Resources */,
-				0A4B955F13C7BE0C00FF364D /* navigationBarBackButton.png in Resources */,
 				0AFC0ED413C7C45D00B667E8 /* DetailViewController.xib in Resources */,
 				0A6229EA13C7D9F10057B97A /* navigationBarLogo.png in Resources */,
+				0A8235FC13C8C83F00277B1B /* NavBarBack@2x.png in Resources */,
+				0A8235FD13C8C83F00277B1B /* NavBarBack.png in Resources */,
+				0A82360513C8CAAF00277B1B /* NavBarBackground@2x.png in Resources */,
+				0A82360613C8CAAF00277B1B /* NavBarBackground.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -44,8 +44,8 @@
     titleImageView.frame = titleImageViewFrame;
     self.navigationItem.titleView = titleView;
     
-    [navBar setBackgroundWith:[UIImage imageNamed:@"navigationBarBackground.png"]];
-    UIButton* back = [navBar backButtonWith:[UIImage imageNamed:@"navigationBarBackButton.png"] highlight:nil leftCapWidth:10.0];
+    [navBar setBackgroundWith:[UIImage imageNamed:@"NavBarBackground.png"]];
+    UIButton* back = [navBar backButtonWith:[UIImage imageNamed:@"NavBarBack.png"] highlight:nil leftCapWidth:17.0];
     self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithCustomView:back];
 }
 
