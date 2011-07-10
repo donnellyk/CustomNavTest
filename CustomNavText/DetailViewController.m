@@ -3,7 +3,6 @@
 //  CustomNavText
 //
 //  Created by Kevin Donnelly on 7/8/11.
-//  Copyright 2011 -. All rights reserved.
 //
 
 #import "DetailViewController.h"
@@ -44,6 +43,7 @@
     titleImageView.frame = titleImageViewFrame;
     self.navigationItem.titleView = titleView;
     
+    //Setting the custom background & nav bar
     [navBar setBackgroundWith:[UIImage imageNamed:@"NavBarBackground.png"]];
     UIButton* back = [navBar backButtonWith:[UIImage imageNamed:@"NavBarBack.png"] highlight:nil leftCapWidth:17.0];
     self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithCustomView:back];
